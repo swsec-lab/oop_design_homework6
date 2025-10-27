@@ -12,7 +12,8 @@
 
 
 ## 아래 클래스 다이어그램을 참고하여 자식 Class를 구현
-        
+
+```       
         +----------------------+
         |      Bird (abstract) |
         +----------------------+
@@ -38,6 +39,8 @@
 | +Duck() |  | +Penguin() |  | +Eagle() |
 | +~Duck()|  | +~Penguin()|  | +~Eagle()|
 +---------+  +------------+  +----------+
+```
+
 
 ### Duck Class
 
@@ -60,7 +63,7 @@
 
 
 ### 예상 출력
-
+```
 Duck has borned
 Quack!
 Penguin has borned
@@ -89,7 +92,7 @@ Squawk!
 Penguin has died
 Screech!
 Eagle has died
-
+```
 
 ### 생각해보기
 - 생성자서 소멸자의 호출 순서가 다른 이유는 무엇일까요?
