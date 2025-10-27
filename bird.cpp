@@ -1,3 +1,3 @@
 #include <iostream>
-#include "Bird.h"
+#include "bird.h"
 
